@@ -20,14 +20,12 @@ body {
 
 .logo-link {
   margin-left: 50px;
-  margin-right: 40px;
+  margin-right: 20px;
   text-decoration: none;
 }
 
 .logo {
   display: block;
-  width: 40px;
-  height: 40px;
 }
 
 .nav-list {
@@ -43,9 +41,9 @@ body {
 
 .nav-link {
   position: relative;
-  display: block;
+  display: flex;
+  align-items: center;
   height: 60px;
-  line-height: 60px;
   color: #000;
   text-decoration: none;
   text-transform: uppercase;
